@@ -55,7 +55,9 @@ export default function Editor() {
         placeholder="Start typing ...."
       />
 
-      <div style={{ margin: "100px 0" }}>{editorText}</div>
+      <div style={{ margin: "100px 0" }}>
+        <h1>HTML Start ============================</h1> {editorText}
+      </div>
       <h1>Preview Start ============================</h1>
 
       <div dangerouslySetInnerHTML={{ __html: editorText }} />
